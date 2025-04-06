@@ -24,7 +24,7 @@ Each identical message will update the previous one by adding a quantity counter
 
 ### Output json format
 
-`logger.warn(Multicall result: {"comet": "0xefdfba3e4a02862330573394ab7139b97f462e84", "asset": "0xb52406fe15fb3b5e61542f0f1cbe27621c8f2cae", "method": "collateralReserves"});`
+`logger.warn('Multicall result: {"comet": "0xefdfba3e4a02862330573394ab7139b97f462e84", "asset": "0xb52406fe15fb3b5e61542f0f1cbe27621c8f2cae", "method": "collateralReserves"}');`
 
 ```
 ⚠️[WARN] 2025-04-06 09:58:11 - Multicall result: {
