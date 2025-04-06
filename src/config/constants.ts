@@ -1,0 +1,1 @@
+export const DELAY_FOR_CALL_MESSAGE_MS = 1000;

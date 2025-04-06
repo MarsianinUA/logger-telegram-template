@@ -13,4 +13,5 @@ if (!chatId) throw missEnvError('CHAT_ID');
 export const TelegramConfig = {
   token,
   chatId,
+  maxMessagesQueue: 100,
 };
